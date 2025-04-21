@@ -1,0 +1,57 @@
+name: trade_twice
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  email_validator: ^2.1.17
+  firebase_core: ^2.25.4
+  flutter_email_sender: ^6.0.1
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.13.5
+  firebase_storage: ^11.0.0
+  http: ^1.0.0
+  firebase_messaging: ^14.7.5
+  shared_preferences: ^2.0.16
+  permission_handler: ^11.0.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/img.png"
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Twice_logo.png"
+
+
+flutter_native_splash:
+  image: assets/images/logo.png
+  color: "#000000"  # background color
