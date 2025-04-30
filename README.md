@@ -1,4 +1,4 @@
-# 📱 Trade Twice
+[# 📱 Trade Twice
 
 **Trade Twice** is a cross-platform mobile application built with **Flutter** that facilitates the resale of products by users. It allows users to list, browse, and purchase second-hand items, helping reduce waste and support sustainable consumption.
 
@@ -62,6 +62,3 @@ Replace google-services.json and firebase_options.dart accordingly
 flutter run
 ```
 ## 📸 Screenshots
-![image](https://github.com/user-attachments/assets/c9f56ca7-dc10-441b-aed4-94f614df9e6e)
-
-
